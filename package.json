@@ -1,6 +1,6 @@
 {
   "name": "rbinder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bind function last parameter (right side)",
   "main": "rbinder.js",
   "scripts": {
@@ -24,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/neu-rah/rbind/issues"
   },
-  "homepage": "https://github.com/neu-rah/rbind#readme"
+  "homepage": "https://github.com/neu-rah/rbind#readme",
+  "tonicExampleFilename": "example.js"
 }
