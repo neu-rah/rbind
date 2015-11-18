@@ -19,10 +19,10 @@ rbinder(Function.prototype);//bind all module functions
 f.rbind(1)(2);// should return a 2 parameters argument
 ```
 
-However functions from imported module wont be patched by last trick.
-The still can be patched individually by rbinder.
+However functions from imported modules wont be patched by last trick.
+They still can be patched individually by rbinder.
 
-This patch can be applied to all imported module functions for particular module, by hooking to any imported function prototype like this.
+This patch can be applied to all imported module functions of a particular module, by hooking to any imported function prototype like this:
 
 ```javascript
 rbinder(fs.readFile.constructor.prototype)
