@@ -1,14 +1,14 @@
 {
-  "name": "rbind",
+  "name": "rbinder",
   "version": "1.0.0",
-  "description": "node bind function last parameter (right side)",
+  "description": "bind function last parameter (right side)",
   "main": "rbind.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neu-rah/rbind.git"
+    "url": "git+https://github.com/neu-rah/rbinder.git"
   },
   "keywords": [
     "node",
