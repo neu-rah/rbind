@@ -1,5 +1,5 @@
 //bind last parameter
-module.exports=function(fn) {
+module.exports=function rbind(fn) {
   fn.rbind=function(last_param) {
     var boundFn=this;//arguments.callee;
     return function() {
@@ -7,4 +7,5 @@ module.exports=function(fn) {
       return boundFn.apply(this,arguments);
     }
   }
+  return fn;
 }

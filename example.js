@@ -1,4 +1,4 @@
 var rbinder=require("rbinder")
-function f(){return arguments;}
+function f(){console.log(arguments);}
 rbinder(f);
-console.log(f.rbind(1)(2));
+f.rbind(1)(2);
