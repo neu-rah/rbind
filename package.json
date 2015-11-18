@@ -1,8 +1,8 @@
 {
   "name": "rbinder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bind function last parameter (right side)",
-  "main": "rbind.js",
+  "main": "rbinder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
